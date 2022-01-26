@@ -19,7 +19,7 @@ public class Person {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
+//  nubllable valores nolos, no caso esta dizendo false entao ñ aceitara valores nulos
     @Column(nullable = false)
     private String firstName;
 
